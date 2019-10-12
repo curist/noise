@@ -2,9 +2,11 @@ import Tone from 'tone'
 
 export default async function play() {
   console.log('play')
-  Tone.Transport.stop()
+  Tone.context.close()
+  Tone.context = new AudioContext()
 
-  const synth = new Tone.Synth().toMaster()
+  const synth = new Tone.Synth()
+  synth.toMaster()
 
   //play a middle 'C' for the duration of an 8th note
   synth.triggerAttackRelease("C5", "8n")
