@@ -1,7 +1,7 @@
-import run from 'src/run'
+import play from 'src/play'
 
 function init() {
-  run()
+  play()
 }
 
 window.onload = init
