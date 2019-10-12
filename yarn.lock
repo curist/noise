@@ -752,6 +752,10 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/tone@https://github.com/Tonejs/TypeScript.git":
+  version "0.2.0"
+  resolved "https://github.com/Tonejs/TypeScript.git#fe8cc3f6b2e549ec9d2b18b09e198ff2275073e0"
+
 abab@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.2.tgz#a2fba1b122c69a85caa02d10f9270c7219709a9d"
