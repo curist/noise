@@ -1,18 +1,12 @@
-# webapp
+# noise
 
-Bare bone web app.
+Noise, start!
 
 ## dev
 
 ```sh
-npm i
-npm start
-```
-
-## prod
-
-```sh
-npm run build
+yarn
+yarn start
 ```
 
 # HMR not working
